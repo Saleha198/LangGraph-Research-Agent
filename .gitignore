@@ -1,0 +1,21 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime outputs
+runs/*
+!runs/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
